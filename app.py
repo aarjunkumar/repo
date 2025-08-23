@@ -1,8 +1,3 @@
-import subprocess
-import sys
-
-subprocess.check_call([sys.executable, "-m", "pip", "install", "google-generativeai"])
-
 import google.generativeai as genai
 import os 
 import streamlit as st 
